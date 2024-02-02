@@ -1,0 +1,6 @@
+source ../scripts/01_Design_setup.tcl
+source ../scripts/02_Design_planning.tcl
+source ../scripts/03_Placement.tcl
+source ../scripts/04_cts.tcl
+source ../scripts/05_route.tcl
+source ../scripts/06_dfm.tcl
