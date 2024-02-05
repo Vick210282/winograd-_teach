@@ -1,7 +1,7 @@
 #gate_level_sim 
 
 
-vcs ../../../verilog/tb_for_combine_32.v \
+vcs ../../../verilog/tb_2_3.v \
 ../../../dc/run/CHIP_syn.v \
 -v /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/Verilog/fsa0m_a_generic_core_30.lib.src /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/Verilog/fsa0m_a_t33_generic_io_30.lib.src  \
 -R -full64 +maxdelays -negdelay +neg_tchk -kdb -lca\

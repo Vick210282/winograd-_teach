@@ -1,4 +1,4 @@
-source ~/.tool_use
+source ../../run_all/.tool_use
 cp ../.synopsys_dc.setup ./
 mkdir report
 icc -gui -f  ../scripts/run.txt

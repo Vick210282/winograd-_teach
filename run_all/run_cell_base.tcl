@@ -2,7 +2,7 @@
 #start
 ######################
 echo "Start Source tool"
-source ~/.tool_use
+source ./.tool_use
 ######################
 # Run RTL simulation
 echo "Run RTL simulation..."
@@ -19,7 +19,7 @@ source ../scripts/run_dc.tcl
 # Run Pre-layout Simulation
 ######################
 echo "Run Pre-Layout simulation..."
-cd ../../simulation/pre_layout_sim/run/
+cd ../../simulation/Pre_sim/run/
 source ../scripts/gate_sim.tcl
 echo " Pre-Layout simulation Done..."
 ######################
@@ -43,7 +43,7 @@ cd ../verify
 echo "Edit files... Comment the Physical cells "
 python comment.py
 cp CHIP_pr.v lvs/
-cp CHIP_pr.v ../../simulation/Post_layout_sim/
+cp CHIP_pr.v ../../simulation/Post_sim/
 ######################
 # Calibre DRC
 ######################
